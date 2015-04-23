@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/lavoro/AndroidStudioProjects/Leaked_Honeycomb-Gallery/app/src/main/res/values-port/dimens.xml -->
+    <eat-comment/>
+    <dimen name="titles_size">200dp</dimen>
+</resources>

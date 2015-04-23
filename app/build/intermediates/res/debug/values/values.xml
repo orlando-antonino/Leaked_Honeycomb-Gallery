@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/lavoro/AndroidStudioProjects/Leaked_Honeycomb-Gallery/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="actionbar_background_dark">#cc000000</color>
+    <color name="actionbar_background_light">#ccffffff</color>
+    <color name="drag_active_color">#80cccccc</color>
+    <declare-styleable name="AppTheme"><attr format="reference" name="listDragShadowBackground"/><attr format="reference" name="menuIconCamera"/><attr format="reference" name="menuIconToggle"/><attr format="reference" name="menuIconShare"/></declare-styleable>
+    <!-- From: file:/C:/lavoro/AndroidStudioProjects/Leaked_Honeycomb-Gallery/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="titles_size">300dp</dimen>
+    <!-- From: file:/C:/lavoro/AndroidStudioProjects/Leaked_Honeycomb-Gallery/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Honeycomb Gallery</string>
+    <string name="app_widget_name">Honeycomb Example Widget</string>
+    <string name="camera_sample">Camera Example</string>
+    <string name="clip_label">Clip Label</string>
+    <string name="notification_text">Example notification text</string>
+    <string name="photo_selection_cab_title">Photo selection</string>
+    <string name="widget_empty_view_text">Touch to show data</string>
+    <!-- From: file:/C:/lavoro/AndroidStudioProjects/Leaked_Honeycomb-Gallery/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ActionBar" parent="@android:style/Widget.Holo.ActionBar"/>
+    <style name="ActionBar.Dark" parent="@style/ActionBar">
+        <item name="android:background">@color/actionbar_background_dark</item>
+    </style>
+    <style name="ActionBar.Light" parent="@style/ActionBar">
+        <item name="android:background">@color/actionbar_background_light</item>
+    </style>
+    <style name="AppTheme.Dark" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/ActionBar.Dark</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="listDragShadowBackground">@android:color/background_dark</item>
+        <item name="menuIconCamera">@drawable/ic_menu_camera_holo_dark</item>
+        <item name="menuIconToggle">@drawable/ic_menu_toggle_holo_dark</item>
+        <item name="menuIconShare">@drawable/ic_menu_share_holo_dark</item>
+    </style>
+    <style name="AppTheme.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ActionBar.Light</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="listDragShadowBackground">@android:color/background_light</item>
+        <item name="menuIconCamera">@drawable/ic_menu_camera_holo_light</item>
+        <item name="menuIconToggle">@drawable/ic_menu_toggle_holo_light</item>
+        <item name="menuIconShare">@drawable/ic_menu_share_holo_light</item>
+    </style>
+</resources>
